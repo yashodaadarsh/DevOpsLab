@@ -9,4 +9,9 @@ public class TestController {
     public String greetings(){
         return "Hello World bhai";
     }
+
+    @GetMapping("message")
+    public String message(){
+        return "This is the testing message";
+    }
 }
