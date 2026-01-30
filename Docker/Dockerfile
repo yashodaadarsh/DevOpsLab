@@ -5,7 +5,7 @@ FROM eclipse-temurin:17-jre
 WORKDIR /app
 
 # Copy the jar file
-COPY target/app.jar app.jar
+COPY target/DevOpsLab05-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose application port (change if needed)
 EXPOSE 8081
