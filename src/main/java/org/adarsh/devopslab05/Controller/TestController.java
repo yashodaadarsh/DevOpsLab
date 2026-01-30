@@ -12,6 +12,7 @@ public class TestController {
 
     @GetMapping("message")
     public String message(){
-        return "This is the testing message";
+        return "This is the testing message from jenkins";
     }
+
 }
